@@ -1,0 +1,28 @@
+print("-----------------------------------POCKET MONEY VARIANCE CALCULATOR-----------------------------------")
+print()
+name1 = input("Name: ")
+name2 = input("Friend's name: ")
+
+
+print()
+print(f"An examination into the variance of funding between two friends, {name1} and {name2}, identifying the difference through seemingly unrelated mathematical equations.")
+print()
+
+pocket_money1 = float(input(f"{name1}'s pocket money: "))
+pocket_money2 = float(input(f"{name2}'s pocket money: "))
+
+add = round(pocket_money1 + pocket_money2, 2)
+minus = round(pocket_money1 - pocket_money2, 2)
+divide = round(pocket_money1 / pocket_money2, 2)
+multiply = round(pocket_money1 * pocket_money2, 2)
+print()
+print("Variance in Funding:", minus)
+print()
+print("Combined Funding Prowess:", add)
+print()
+print("Multiplication Study:", multiply)
+print()
+print("Division Study:", divide)
+print()
+print(f"Findings: the variance between {name1} and {name2} is clearly represented in  the values of Variance in Funding; {minus}, Combined Funding Prowess; {add}, Multiplication Study; {multiply}, Division Study; {divide} This is a clear indication of the disparity in funding between the two friends, highlighting the need for further investigation into the underlying causes of this variance (One friend is female)")
+print("====================================================================================================")
