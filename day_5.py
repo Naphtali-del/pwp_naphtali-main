@@ -6,7 +6,7 @@ print()
 
 prime = int(input("Enter a number: "))
 print()
-if prime >= 1:
+if prime > 1:
     for value in range(2, prime):
         if prime % value == 0:
             print(prime , "is not prime number.")
